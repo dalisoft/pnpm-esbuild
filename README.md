@@ -1,6 +1,6 @@
 # pnpm-esbuild
 
-This repository shows example of how VSCode workspaces does not work
+This repository shows example of how PNPM + ESBuild does not work together
 
 ## References issues
 
