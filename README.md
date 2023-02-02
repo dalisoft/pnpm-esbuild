@@ -80,4 +80,3 @@ module.exports = {
 - `npm` -- works
 - `yarn` v1 -- works
 - `bun install` -- even depedendency exists at `frontend/node_modules` after installation exists, same bug
-- `yarn` v2/v3 -- not works
