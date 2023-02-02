@@ -1,0 +1,14 @@
+lockfileVersion: '6.0'
+
+dependencies:
+  '@shared/api':
+    specifier: file:../api-shared
+    version: file:../api-shared
+
+packages:
+
+  file:../api-shared:
+    resolution: {directory: ../api-shared, type: directory}
+    name: '@shared/api'
+    version: 1.0.0
+    dev: false

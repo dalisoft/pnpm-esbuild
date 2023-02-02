@@ -1,0 +1,19 @@
+{
+  "name": "@shared/api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "",
+  "files": [
+    "src/auth"
+  ],
+  "exports": {
+    "./*": "./src/*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,22 @@
+{
+  "include": [
+    "src"
+  ],
+  "compilerOptions": {
+    "lib": [
+      "es2020",
+    ],
+    "baseUrl": "src",
+    "moduleResolution": "node16",
+    "module": "node16",
+    "target": "es2020",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "#auth/*": [
+        "./auth/*"
+      ],
+    }
+  }
+}

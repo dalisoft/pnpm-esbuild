@@ -1,0 +1,15 @@
+{
+  "include": [
+    "."
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "module": "es6",
+    "paths": {
+      "@shared/ui/components/*": [
+        "./components/*"
+      ],
+    }
+  }
+}
