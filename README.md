@@ -162,7 +162,7 @@ module.exports = {
 | ------------------------------------ | ----- | ------------------------------ |
 | `npm`                                | ✅    | ❌                             |
 | `pnpm`                               | ❌    | ✅                             |
-| `yarn` v1                            | ✅    | ✅                             |
+| `yarn` v1                            | ✅    | ❌                             |
 | `yarn` v3 (PnP/PNPM)                 | ❌    | ❌                             |
 | `yarn` v3 (nodeLinker: node-modules) | ✅    | ❌                             |
 | `bun install` [1]                    | ❌    | ✅                             |
