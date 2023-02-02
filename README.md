@@ -23,7 +23,7 @@ use-lockfile-v6=true
 
 <details>
 
-<summary>See the problem</summary>
+<summary>See the problem #1</summary>
 
 ```
 ✘ [ERROR] Could not resolve "uuid"
@@ -96,6 +96,16 @@ src/App.js:2:29: ERROR: Could not resolve "uuid"
   warnings: []
 }
 ```
+
+</details>
+
+<details>
+
+<summary>See the problem #2</summary>
+
+Locally linked/set dependencies not updating after installation
+
+See https://github.com/npm/cli/issues/6124 or [Test Case](#test-case) below
 
 </details>
 
