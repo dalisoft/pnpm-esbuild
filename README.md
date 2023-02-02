@@ -160,7 +160,7 @@ module.exports = {
 | ----------------- | ----- | ---------- |
 | `npm`             | ✅    | ❌         |
 | `yarn` v1         | ✅    | ✅         |
-| `yarn` v3/PnP     | ❌    | ❓         |
-| `bun install` [1] | ❌    | ❓         |
+| `yarn` v3/PnP     | ❌    | ❌         |
+| `bun install` [1] | ❌    | ✅         |
 
 `[1]` even depedendency exists at `frontend/node_modules` after installation exists, same bug
