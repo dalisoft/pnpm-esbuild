@@ -160,6 +160,13 @@ module.exports = {
 - Run `npm run yarn-build` at `frontend` folder
 - YOU WILL SEE ERROR
 
+### bun
+
+- Clone repo
+- Run `bun install` on each of subfolders
+- Run `bun run ./scripts/build.mjs` at `frontend` folder
+- YOU WILL SEE ERROR
+
 ## Workaround
 
 - Clone repo
