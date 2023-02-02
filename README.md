@@ -10,6 +10,7 @@ This repository shows example of how PNPM/Yarn/PnP + ESBuild does not work toget
 | Yarn v2/v3      | <strike>https://github.com/yarnpkg/berry/issues/5241</strike>  | [Solution](https://github.com/yarnpkg/berry/issues/5241#issuecomment-1414396229) |
 | Yarn v2/v3      | <strike>https://github.com/yarnpkg/berry/issues/5242)</strike> | [Solution](https://github.com/yarnpkg/berry/issues/5242#issuecomment-1414442561) |
 | npm             | <https://github.com/npm/cli/issues/6124>                       | -                                                                                |
+| bun             | <https://github.com/oven-sh/bun/issues/1974>                   | -                                                                                |
 
 ## `~/.npmrc`
 
