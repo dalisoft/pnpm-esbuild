@@ -156,11 +156,11 @@ module.exports = {
 
 ## Test case
 
-| Package Manager   | Build | Local-link |
-| ----------------- | ----- | ---------- |
-| `npm`             | ✅    | ❌         |
-| `yarn` v1         | ✅    | ✅         |
-| `yarn` v3/PnP     | ❌    | ❌         |
-| `bun install` [1] | ❌    | ✅         |
+| Package Manager   | Build | Live local folder dependencies |
+| ----------------- | ----- | ------------------------------ |
+| `npm`             | ✅    | ❌                             |
+| `yarn` v1         | ✅    | ✅                             |
+| `yarn` v3/PnP     | ❌    | ❌                             |
+| `bun install` [1] | ❌    | ✅                             |
 
 `[1]` even depedendency exists at `frontend/node_modules` after installation exists, same bug
