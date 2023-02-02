@@ -6,6 +6,7 @@ This repository shows example of how PNPM + ESBuild does not work together
 
 - https://github.com/pnpm/pnpm/issues/6009
 - <strike>https://github.com/yarnpkg/berry/issues/5241</strike> (see `frontend/.yarnrc.yml`)
+- https://github.com/yarnpkg/berry/issues/5242
 
 ## `~/.npmrc`
 
