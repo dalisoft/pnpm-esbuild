@@ -61,7 +61,6 @@ module.exports = {
 ### yarn v3
 
 - Clone repo
-- Modify `frontend/package.json` and add `{"type": "module"}`
 - Run `yarn set version stable`
 - Run `yarn install` on each of subfolders
 - Run `npm run yarn-build` at `frontend` folder
