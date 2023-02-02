@@ -113,7 +113,7 @@ See https://github.com/npm/cli/issues/6124 or [Test Case](#test-case) below
 
 ### pnpm
 
-- Clone repo
+- Clone repo and go-to cloned folder
 - Run `pnpm install` on each of subfolders
 - Run `npm run build` at `frontend` folder
 - YOU WILL SEE ERROR
@@ -154,7 +154,7 @@ module.exports = {
 
 ### yarn v3
 
-- Clone repo
+- Clone repo and go-to cloned folder
 - Run `yarn set version stable`
 - Run `yarn install` on each of subfolders
 - Run `npm run yarn-build` at `frontend` folder
@@ -162,14 +162,14 @@ module.exports = {
 
 ### bun
 
-- Clone repo
+- Clone repo and go-to cloned folder
 - Run `bun install` on each of subfolders
 - Run `bun run ./scripts/build.mjs` at `frontend` folder
 - YOU WILL SEE ERROR
 
 ## Workaround
 
-- Clone repo
+- Clone repo and go-to cloned folder
 - Switch to `npm v8`
 - Run `npm install`
 - Run `npm run build` at `frontend` folder
