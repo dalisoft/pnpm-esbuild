@@ -5,8 +5,8 @@ This repository shows example of how PNPM/Yarn/PnP + ESBuild does not work toget
 ## References issues
 
 - https://github.com/pnpm/pnpm/issues/6009
-- <strike>https://github.com/yarnpkg/berry/issues/5241</strike> (see `frontend/.yarnrc.yml`)
-- https://github.com/yarnpkg/berry/issues/5242
+- <strike>https://github.com/yarnpkg/berry/issues/5241</strike> (use `pnpEnableEsmLoader: true`)
+- <strike>https://github.com/yarnpkg/berry/issues/5242)</strike> (use `nodeLinker: node-modules`)
 
 ## `~/.npmrc`
 
