@@ -1,16 +1,11 @@
 {
-  "include": [
-    "src",
-    "node_modules/@shared/ui"
-  ],
+  "include": ["src", "node_modules/@shared/ui"],
   "compilerOptions": {
     "baseUrl": "src",
     "module": "es6",
     "moduleResolution": "classic",
     "paths": {
-      "@shared/ui/*": [
-        "node_modules/@shared/ui/*"
-      ]
+      "@shared/ui/*": ["node_modules/@shared/ui/*"]
     }
   }
 }

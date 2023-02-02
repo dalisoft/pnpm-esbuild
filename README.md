@@ -5,7 +5,7 @@ This repository shows example of how PNPM + ESBuild does not work together
 ## References issues
 
 - https://github.com/pnpm/pnpm/issues/6009
-- https://github.com/yarnpkg/berry/issues/5241
+- <strike>https://github.com/yarnpkg/berry/issues/5241</strike>
 
 ## `~/.npmrc`
 
@@ -30,11 +30,10 @@ use-lockfile-v6=true
 
 <summary><code>.pnpmfile.cjs</code> did not help</summary>
 
-
 ```js
 function afterAllResolved(lockfile, context) {
   const { importers, packages, specifiers } = lockfile;
-  const { dependencies } = importers['.'];
+  const { dependencies } = importers["."];
 
   for (const name in dependencies) {
     const version = dependencies[name];
@@ -42,19 +41,19 @@ function afterAllResolved(lockfile, context) {
 
     if (package) {
       if (package.dependencies) {
-        Object.assign(dependencies, package.dependencies)
+        Object.assign(dependencies, package.dependencies);
       }
     }
   }
 
-  return lockfile
+  return lockfile;
 }
 
 module.exports = {
   hooks: {
-    afterAllResolved
-  }
-}
+    afterAllResolved,
+  },
+};
 ```
 
 </details>
@@ -62,9 +61,10 @@ module.exports = {
 ### yarn v3
 
 - Clone repo
+- Modify `frontend/package.json` and add `{"type": "module"}`
 - Run `yarn set version stable`
-- Run `pnpm install` on each of subfolders
-- Run `node -r ./.pnp.cjs ./scripts/build.mjs` or `yarn node scripts/build.mjs` at `frontend` folder
+- Run `yarn install` on each of subfolders
+- Run `npm run yarn-build` at `frontend` folder
 - YOU WILL SEE ERROR
 
 ## Workaround
@@ -74,9 +74,13 @@ module.exports = {
 - Run `npm run build` at `frontend` folder
 - YOU WILL SEE BUILD FOLDERS
 
+## Test case
 
-## Alternative package managers
+| Package Manager   | Build | Local-link |
+| ----------------- | ----- | ---------- |
+| `npm`             | ✅    | ❌         |
+| `yarn` v1         | ✅    | ✅         |
+| `yarn` v3/PnP     | ❌    | ❓         |
+| `bun install` [1] | ❌    | ❓         |
 
-- `npm` -- works
-- `yarn` v1 -- works
-- `bun install` -- even depedendency exists at `frontend/node_modules` after installation exists, same bug
+`[1]` even depedendency exists at `frontend/node_modules` after installation exists, same bug
