@@ -19,9 +19,11 @@ use-lockfile-v6=true
 - Clone repo
 - Run `pnpm install` on each of subfolders
 - Run `node ./scripts/build.mjs` at `frontend` folder
+- YOU WILL SEE ERROR
 
 ## Workaround
 
 - Clone repo
 - Run `npm install --legacy-peer-deps`
 - Run `node ./scripts/build.mjs` at `frontend` folder
+- YOU WILL SEE BUILD FOLDERS
