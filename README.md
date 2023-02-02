@@ -8,7 +8,7 @@ This repository shows example of how PNPM/Yarn/PnP + ESBuild does not work toget
 | --------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | PNPM            | <strike><https://github.com/pnpm/pnpm/issues/6009></strike>    | -                                                                                |
 | Yarn v2/v3      | <strike>https://github.com/yarnpkg/berry/issues/5241</strike>  | [Solution](https://github.com/yarnpkg/berry/issues/5241#issuecomment-1414396229) |
-| Yarn v/v3       | <strike>https://github.com/yarnpkg/berry/issues/5242)</strike> | [Solution](https://github.com/yarnpkg/berry/issues/5242#issuecomment-1414442561) |
+| Yarn v2/v3      | <strike>https://github.com/yarnpkg/berry/issues/5242)</strike> | [Solution](https://github.com/yarnpkg/berry/issues/5242#issuecomment-1414442561) |
 
 ## `~/.npmrc`
 
