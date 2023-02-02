@@ -26,6 +26,6 @@ use-lockfile-v6=true
 ## Workaround
 
 - Clone repo
-- Run `npm install --legacy-peer-deps`
+- Run `npm install`
 - Run `node ./scripts/build.mjs` at `frontend` folder
 - YOU WILL SEE BUILD FOLDERS
