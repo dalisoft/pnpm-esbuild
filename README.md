@@ -23,6 +23,39 @@ use-lockfile-v6=true
 
 > You can try `pnpm install --shamefully-hoist` at `frontend` folder, but does not help
 
+<details>
+
+<summary>`.pnpmfile.cjs` did not help</summary>
+
+
+```js
+function afterAllResolved(lockfile, context) {
+  const { importers, packages, specifiers } = lockfile;
+  const { dependencies } = importers['.'];
+
+  for (const name in dependencies) {
+    const version = dependencies[name];
+    const package = packages[version] || packages[`/${name}/${version}`];
+
+    if (package) {
+      if (package.dependencies) {
+        Object.assign(dependencies, package.dependencies)
+      }
+    }
+  }
+
+  return lockfile
+}
+
+module.exports = {
+  hooks: {
+    afterAllResolved
+  }
+}
+```
+
+</details>
+
 ## Workaround
 
 - Clone repo
