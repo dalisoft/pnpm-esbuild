@@ -2,7 +2,7 @@ enableGlobalCache: true
 
 nmMode: hardlinks-local
 
-nodeLinker: pnp
+nodeLinker: node-modules
 
 pnpEnableEsmLoader: true
 
