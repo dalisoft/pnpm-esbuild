@@ -188,4 +188,4 @@ module.exports = {
 | `yarn` v3 (nodeLinker: node-modules) | ✅    | ❌                             |
 | `bun install` [1]                    | ❌    | ✅                             |
 
-`[1]` even depedendency exists at `frontend/node_modules` after installation exists, same bug
+`[1]` even depedendency exists at `frontend/node_modules` after installation done, same bug
