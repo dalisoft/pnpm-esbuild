@@ -152,6 +152,7 @@ module.exports = {
 ## Workaround
 
 - Clone repo
+- Switch to `npm v8`
 - Run `npm install`
 - Run `npm run build` at `frontend` folder
 - YOU WILL SEE BUILD FOLDERS
