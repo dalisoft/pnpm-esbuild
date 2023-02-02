@@ -1,6 +1,6 @@
-# pnpm-esbuild
+# pnpm-yarn-pnp-esbuild
 
-This repository shows example of how PNPM + ESBuild does not work together
+This repository shows example of how PNPM/Yarn/PnP + ESBuild does not work together
 
 ## References issues
 
