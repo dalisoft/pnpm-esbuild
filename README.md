@@ -25,7 +25,7 @@ use-lockfile-v6=true
 
 <details>
 
-<summary>`.pnpmfile.cjs` did not help</summary>
+<summary><code>.pnpmfile.cjs</code> did not help</summary>
 
 
 ```js
