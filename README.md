@@ -161,6 +161,7 @@ module.exports = {
 | Package Manager                      | Build | Live local folder dependencies |
 | ------------------------------------ | ----- | ------------------------------ |
 | `npm`                                | ✅    | ❌                             |
+| `pnpm`                               | ❌    | ✅                             |
 | `yarn` v1                            | ✅    | ✅                             |
 | `yarn` v3 (PnP/PNPM)                 | ❌    | ❌                             |
 | `yarn` v3 (nodeLinker: node-modules) | ✅    | ❌                             |
