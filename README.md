@@ -5,6 +5,7 @@ This repository shows example of how PNPM + ESBuild does not work together
 ## References issues
 
 - https://github.com/pnpm/pnpm/issues/6009
+- https://github.com/yarnpkg/berry/issues/5241
 
 ## `~/.npmrc`
 
@@ -15,6 +16,8 @@ use-lockfile-v6=true
 ```
 
 ## Installation & Running
+
+### pnpm
 
 - Clone repo
 - Run `pnpm install` on each of subfolders
@@ -55,6 +58,14 @@ module.exports = {
 ```
 
 </details>
+
+### yarn v3
+
+- Clone repo
+- Run `yarn set version stable`
+- Run `pnpm install` on each of subfolders
+- Run `node -r ./.pnp.cjs ./scripts/build.mjs` or `yarn node scripts/build.mjs` at `frontend` folder
+- YOU WILL SEE ERROR
 
 ## Workaround
 
