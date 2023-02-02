@@ -18,7 +18,7 @@ use-lockfile-v6=true
 
 - Clone repo
 - Run `pnpm install` on each of subfolders
-- Run `node ./scripts/build.mjs` at `frontend` folder
+- Run `npm run build` at `frontend` folder
 - YOU WILL SEE ERROR
 
 > You can try `pnpm install --shamefully-hoist` at `frontend` folder, but does not help
@@ -27,5 +27,5 @@ use-lockfile-v6=true
 
 - Clone repo
 - Run `npm install`
-- Run `node ./scripts/build.mjs` at `frontend` folder
+- Run `npm run build` at `frontend` folder
 - YOU WILL SEE BUILD FOLDERS
