@@ -160,7 +160,8 @@ module.exports = {
 
 | Package Manager                      | Build | Live local folder dependencies |
 | ------------------------------------ | ----- | ------------------------------ |
-| `npm`                                | ✅    | ❌                             |
+| `npm v8`                             | ✅    | ✅                             |
+| `npm v9+`                            | ✅    | ❌                             |
 | `pnpm`                               | ❌    | ✅                             |
 | `yarn` v1                            | ✅    | ❌                             |
 | `yarn` v3 (PnP/PNPM)                 | ❌    | ❌                             |
