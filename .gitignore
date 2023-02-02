@@ -6,6 +6,7 @@ node_modules
 .pnp
 .pnp.js
 .pnp.loader.js
+.pnp.loader.mjs
 .pnp.cjs
 
 # testing
@@ -28,4 +29,3 @@ yarn-error.log*
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
-.yarnrc.yml
