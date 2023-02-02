@@ -1,10 +1,9 @@
 enableGlobalCache: true
 
-nmMode: hardlinks-local
+nmMode: hardlinks-global
 
 nodeLinker: node-modules
 
 pnpEnableEsmLoader: true
 
 telemetryInterval: 0
-

@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "node ./scripts/build.mjs",
-    "yarn-build": "node -r ./.pnp.cjs --loader ./.pnp.loader.mjs ./scripts/build.mjs"
+    "yarn-build": "yarn node ./scripts/build.mjs"
   },
   "eslintConfig": {
     "extends": [
