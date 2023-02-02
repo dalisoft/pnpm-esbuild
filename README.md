@@ -21,6 +21,8 @@ use-lockfile-v6=true
 - Run `node ./scripts/build.mjs` at `frontend` folder
 - YOU WILL SEE ERROR
 
+> You can try `pnpm install --shamefully-hoist` at `frontend` folder, but does not help
+
 ## Workaround
 
 - Clone repo
