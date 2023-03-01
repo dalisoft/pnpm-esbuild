@@ -9,7 +9,7 @@ This repository shows example of how PNPM/Yarn/PnP + ESBuild does not work toget
 | PNPM            | <strike><https://github.com/pnpm/pnpm/issues/6009></strike>    | -                                                                                |
 | Yarn v2/v3      | <strike>https://github.com/yarnpkg/berry/issues/5241</strike>  | [Solution](https://github.com/yarnpkg/berry/issues/5241#issuecomment-1414396229) |
 | Yarn v2/v3      | <strike>https://github.com/yarnpkg/berry/issues/5242)</strike> | [Solution](https://github.com/yarnpkg/berry/issues/5242#issuecomment-1414442561) |
-| npm             | <https://github.com/npm/cli/issues/6124>                       | -                                                                                |
+| npm             | <strike><https://github.com/npm/cli/issues/6124></strike>      | [Solution](https://github.com/npm/cli/issues/6124#issuecomment-1449095692)       |
 | bun             | <https://github.com/oven-sh/bun/issues/1974>                   | -                                                                                |
 
 ## `~/.npmrc`
@@ -181,7 +181,7 @@ module.exports = {
 | Package Manager                      | Build | Live local folder dependencies |
 | ------------------------------------ | ----- | ------------------------------ |
 | `npm v8`                             | ✅    | ✅                             |
-| `npm v9+`                            | ✅    | ❌                             |
+| `npm v9+`                            | ✅    | ✅                             |
 | `pnpm`                               | ❌    | ✅                             |
 | `yarn` v1                            | ✅    | ❌                             |
 | `yarn` v3 (PnP/PNPM)                 | ❌    | ❌                             |
